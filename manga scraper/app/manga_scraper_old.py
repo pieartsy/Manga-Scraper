@@ -7,13 +7,7 @@
 # This script iterates through each page of a manga series hosted online.
 # On each page, it rips the image file that contains the actual comic page, and saves it to a directory.
 # Then it effectively clicks 'Next' on the page, and navigates through the website that way.
-# The default directory where images are saved to is the one where Manga Scraper v1 is located.
-
-#---Version Notes---
-
-# v1.1 removes an error at the end of the loop and adds more documentation.
-# v1.2 clearer documentation, added variables for user changes
-# v1.2.1 fixes a bug where the script wouldn't stop on the designated last page by changing 'is' to !=
+# The default directory where images are saved to is the one where Manga Scraper is located.
 
 #---Libraries---
 

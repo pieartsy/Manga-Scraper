@@ -2,6 +2,7 @@
 import sys
 
 #imports the gui aspect of pyqt
+
 from PyQt5.QtWidgets import (QApplication, QComboBox, QDialog, QDialogButtonBox, QFormLayout, QGridLayout, QGroupBox, QHBoxLayout, QLabel, QLineEdit, QMenu, QMenuBar, QPushButton, QSpinBox, QTextEdit, QVBoxLayout, QInputDialog)
 from PyQt5.QtGui import QIcon
 
@@ -12,7 +13,7 @@ import re
 import requests
 
 # Library that extracts info from files.
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 
 import os.path
 
